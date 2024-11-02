@@ -1,0 +1,51 @@
+/* Variables y mixins de Sass se traducen a reglas CSS compiladas */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .jumbotron {
+    background-color: #a3cfe8; /* lighten($color-primario, 30%) */
+    color: #276891; /* darken($color-primario, 20%) */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #3498db; /* $color-primario */
+  }
+  
+  .jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #3078b0; /* darken($color-primario, 15%) */
+  }
+  
+  .jumbotron .btn {
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jumbotron .btn.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+  }
+  
+  .jumbotron .btn.btn-primary:hover {
+    background-color: #2874b0; /* darken($color-primario, 10%) */
+  }
+  
+  .jumbotron .btn.btn-secondary {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+  
+  .jumbotron .btn.btn-secondary:hover {
+    background-color: #27ae60; /* darken($color-secundario, 10%) */
+  }
